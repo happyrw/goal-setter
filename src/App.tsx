@@ -53,18 +53,6 @@ function App() {
     setGoals(updatedGoals);
   };
 
-  // Exercises for javascript
-  // function to calculate 10!
-  function calculate() {
-    let number = 2;
-    let multiplier = 1;
-    for (let i = 1; i <= number; i++) {
-      let result = number + " * " + i + " = " + number * i;
-      console.log(result);
-    }
-  }
-  calculate();
-
   return (
     <div className="min-h-screen bg-gray-100 p-4 max-w-screen-xl mx-auto">
       <h1 className="text-3xl font-bold text-center mb-10 mt-5">
